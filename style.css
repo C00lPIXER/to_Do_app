@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/OMEN_PortalWP_04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+#addTaskButton{
+    background-color: rgb(56, 197, 0);
+}
+#card-header-d {
+    border-radius: 15px 15px 0 0;
+    background-color: #CD1C0C;
+}
+
+#taskList .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#taskList .list-group-item .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#taskList .list-group-item .btn {
+    background-color: transparent;
+    border: none;
+    color: #ff4757;
+    font-size: 18px;
+}
+
+#taskList .list-group-item .btn:hover {
+    color: #e74c3c;
+}
+
+#taskList .list-group-item.completed .task-text {
+    text-decoration: line-through;
+    color: #ff0000;
+}
